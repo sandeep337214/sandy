@@ -1,0 +1,155 @@
+/* UserTable.css */
+.user-table-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-table-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.user-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table-container th, .user-table-container td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.user-table-container th {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+}
+
+.user-table-container td {
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table-container tr:hover {
+  background-color: #f9f9f9;
+}
+
+.user-table-container .add-user-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4a90e2;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.user-table-container .add-user-link:hover {
+  background-color: #357ab8;
+}
+
+.user-table-container .edit-button {
+  color: #4a90e2;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.user-table-container .edit-button:hover {
+  color: #357ab8;
+}
+
+
+/* AddUser.css */
+.add-user-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #2979ff;
+}
+
+.add-user-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+}
+
+.add-user-container h2::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #2979ff;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.add-user-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user-container label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.add-user-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-user-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.add-user-container .terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-user-container button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2979ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-user-container button:hover {
+  background-color: #1b5bbf;
+}
+
+.add-user-container .login-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.add-user-container .login-link a {
+  color: #2979ff;
+  text-decoration: none;
+}
+
+.add-user-container .login-link a:hover {
+  text-decoration: underline;
+}

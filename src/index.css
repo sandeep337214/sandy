@@ -1,0 +1,40 @@
+nav {
+  background-color: aliceblue;
+  padding: 16px 32px;
+}
+nav a {
+  margin-right: 16px;
+}
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+}
+.dil{
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 8px;
+    
+    width: 300px;
+}
+.fil{
+    margin: 8px;
+    border-radius: 4px;
+   
+    background-color: rgb(55, 139, 224);
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.gil{
+    width: 70px;
+    background-color: rgb(136, 169, 159);
+    margin-left: 8px;
+    border-radius: 8px;
+}
+.kil{
+    background-image: url("bgdesert.jpg");
+}
+
